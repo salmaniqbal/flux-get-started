@@ -58,7 +58,7 @@ spec:
         - --ui-message='Welcome BoE'
         env:
         - name: PODINFO_UI_COLOR
-          value: "#34577c"
+          value: "#77eb34"
         livenessProbe:
           httpGet:
             path: /healthz
